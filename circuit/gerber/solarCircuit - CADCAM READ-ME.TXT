@@ -1,0 +1,47 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'solarCircuit.pdsprj'.
+CADCAM generated at 11:51:54 PM on Monday, June 5, 2017.
+
+File List
+---------
+Top Copper              : solarCircuit - CADCAM Top Copper.TXT
+Bottom Copper           : solarCircuit - CADCAM Bottom Copper.TXT
+Top Silk Screen         : solarCircuit - CADCAM Top Silk Screen.TXT
+Bottom Silk Screen      : solarCircuit - CADCAM Bottom Silk Screen.TXT
+Top Solder Resist       : solarCircuit - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : solarCircuit - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : solarCircuit - CADCAM Top SMT Paste Mask.TXT
+Mechanical 1            : solarCircuit - CADCAM Mechanical 1.TXT
+Drill                   : solarCircuit - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=25th                                                            DRAW
+D11	RECT    W=25th                H=80th                                      FLASH
+D12	SQUARE  S=80th                                                            FLASH
+D13	CIRCLE  D=70th                                                            FLASH
+D14	RECT    W=89th                H=63th                                      FLASH
+D15	RECT    W=40th                H=50th                                      FLASH
+D16	CIRCLE  D=8th                                                             DRAW
+D17	CIRCLE  D=9.8th                                                           DRAW
+D18	CIRCLE  D=7.8th                                                           DRAW
+D19	CIRCLE  D=2.4th                                                           DRAW
+D70	CIRCLE  D=80th                                                            FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	40th (0-15) Plated
+T02	30th (0-15) Plated
+
+
+[END OF FILE]
